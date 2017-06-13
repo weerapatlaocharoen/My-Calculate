@@ -11,16 +11,24 @@ import UIKit
 class ViewController: UIViewController {
     
     //ประกาศตัวแปร (Implicit)
+    // Integer
     var intNum1 = 0
     var intNum2: Int = 0
-   
+    var intAnswer : Int = 0
+    // String
     var strNum1 = " "
     var strNum2: String = " "
+    var strAnswer : String = " "
     
+    //Initial View to Outlet
+    //TextFiald1
     @IBOutlet weak var Num1TextFieid: UITextField!
     
+    //TextFiald2
     @IBOutlet weak var Num2TextField: UITextField!
 
+    
+    // ปุ่มกด Button
     @IBAction func AnswerButton(_ sender: Any) {
         
         strNum1 = Num1TextFieid.text!
@@ -36,10 +44,16 @@ class ViewController: UIViewController {
         print("intNum ==> \(intNum1)")
         print("intNum ==> \(intNum2)")
         
-        
+        intAnswer = intNum1 + intNum2
+        print("intAnswer \(intAnswer)")
         
         
     }//AnswerButton
+    
+    
+    @IBOutlet weak var ShowAnswer: UILabel!
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

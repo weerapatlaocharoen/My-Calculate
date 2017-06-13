@@ -95,11 +95,12 @@
                     <connections>
                         <outlet property="Num1TextFieid" destination="10X-XB-JC2" id="ZC1-Ci-UjP"/>
                         <outlet property="Num2TextField" destination="b88-js-VGO" id="igB-pn-XqK"/>
+                        <outlet property="ShowAnswer" destination="39h-be-yoY" id="dZy-XF-ShJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1038" y="-132"/>
+            <point key="canvasLocation" x="-1177" y="-72"/>
         </scene>
     </scenes>
 </document>
