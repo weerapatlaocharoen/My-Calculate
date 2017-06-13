@@ -27,8 +27,15 @@ class ViewController: UIViewController {
         strNum2 = Num2TextField.text!
         
         //Show Log
-        print("Number1 ==> \(strNum1)")
-        print("Number2 ==> \(strNum2)")
+        print("strNum1 ==> \(strNum1)")
+        print("strNum2 ==> \(strNum2)")
+        
+        //Change DataType
+        intNum1 = Int(strNum1)!
+        intNum2 = Int(strNum2)!
+        print("intNum ==> \(intNum1)")
+        print("intNum ==> \(intNum2)")
+        
         
         
         
