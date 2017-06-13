@@ -47,6 +47,11 @@ class ViewController: UIViewController {
         intAnswer = intNum1 + intNum2
         print("intAnswer \(intAnswer)")
         
+        //Change int to String
+        strAnswer = String(intAnswer)
+        
+        //แสดงผลบน Lable
+        ShowAnswer.text = strAnswer
         
     }//AnswerButton
     
