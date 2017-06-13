@@ -64,9 +64,12 @@
                                 <state key="normal" title="Answer">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="AnswerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YGd-Nq-5xh"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.94839972257614136" green="0.94709223508834839" blue="0.80106621980667114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.93864303827285767" green="0.92388838529586792" blue="0.71037936210632324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="10X-XB-JC2" secondAttribute="trailing" constant="114" id="17w-E2-Yj9"/>
                             <constraint firstItem="joI-EB-WIJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="2Jo-Gb-Xxb"/>
@@ -89,10 +92,14 @@
                             <constraint firstItem="10X-XB-JC2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="114" id="x8F-VM-18p"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Num1TextFieid" destination="10X-XB-JC2" id="ZC1-Ci-UjP"/>
+                        <outlet property="Num2TextField" destination="b88-js-VGO" id="igB-pn-XqK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1041" y="-179"/>
+            <point key="canvasLocation" x="-1038" y="-132"/>
         </scene>
     </scenes>
 </document>

@@ -9,11 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //ประกาศตัวแปร (Implicit)
+    var intNum1 = 0
+    var intNum2: Int = 0
+   
+    var strNum1 = " "
+    var strNum2: String = " "
+    
+    @IBOutlet weak var Num1TextFieid: UITextField!
+    
+    @IBOutlet weak var Num2TextField: UITextField!
 
+    @IBAction func AnswerButton(_ sender: Any) {
+        
+        strNum1 = Num1TextFieid.text!
+        strNum2 = Num2TextField.text!
+        
+        //Show Log
+        print("Number1 ==> \(strNum1)")
+        print("Number2 ==> \(strNum2)")
+        
+        
+        
+    }//AnswerButton
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+    }//==>เมทธอทหลักที่ทำงานเป็นอันดับแรก
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -21,5 +45,5 @@ class ViewController: UIViewController {
     }
 
 
-}
+}//main class
 
